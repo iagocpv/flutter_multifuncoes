@@ -8,6 +8,11 @@ Este é um aplicativo Flutter com várias funcionalidades em diferentes telas:
 - Calculadora de desconto para uma lista de produtos
 - Calculadora da área de um retângulo
 - Jogo de adivinhação de números (1 a 10)
+- Formulário de Feedback com avaliação
+- Pesquisa de cidades brasileiras por estado (UF) com a API do IBGE
+- Cadastro de tarefas
+- Lista de compras
+- Notas rápidas
 
 ---
 
@@ -67,6 +72,22 @@ Calcula a área de um retângulo baseado na largura e altura fornecidas.
 ### Jogo de Adivinhação
 
 O computador pensa em um número entre 1 e 10, e o usuário tenta adivinhar em até 5 tentativas. O app informa se o palpite está muito alto, muito baixo ou correto.
+
+### Pesquisa de Cidades
+
+Permite escolher um estado brasileiro (UF) e digitar o nome da cidade com autocomplete usando dados da API do IBGE. Exibe a cidade selecionada.
+
+### Cadastro de Tarefas Diárias
+
+Usuário cadastra tarefas com nome, descrição, prioridade (baixa, média, alta) via radio buttons e marca se foi concluída com checkbox. Tarefas são exibidas em lista.
+
+### Lista de Compras
+
+Usuário adiciona itens via TextField, marca itens comprados com checkbox e pode remover itens da lista.
+
+### Notas Rápidas
+
+Usuário cria notas com título e conteúdo multilinha, exibe os títulos em uma lista e pode ver o conteúdo completo ao selecionar.
 
 
 ---

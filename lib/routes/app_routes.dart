@@ -9,6 +9,7 @@ import '../screens/lista_compras_screen.dart';
 import '../screens/tarefas_screen.dart';
 import '../screens/notas_screen.dart';
 import '../screens/feedback_screen.dart';
+import '../screens/cidades_screen.dart';
 
 class AppRoutes {
   static const home = '/';
@@ -21,6 +22,8 @@ class AppRoutes {
   static const tarefas = '/tarefas';
   static const notas = '/notas';
   static const feedback = '/feedback';
+  static const cidades = '/cidades';
+  
 
   static Map<String, WidgetBuilder> routes = {
     home: (context) => const HomeScreen(),
@@ -33,5 +36,6 @@ class AppRoutes {
     tarefas: (context) => const TarefasScreen(),
     notas: (context) => const NotasScreen(),
     feedback: (context) => const FeedbackScreen(),
+    cidades: (context) => const CidadesScreen(),
   };
 }

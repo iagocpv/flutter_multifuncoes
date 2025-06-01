@@ -74,6 +74,13 @@ class HomeScreen extends StatelessWidget {
               child: const Text('Feedbacks'),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, AppRoutes.cidades),
+              child: const Text('Pesquisa de cidades'),
+            ),
+          ),
         ],
       ),
     );
