@@ -89,6 +89,10 @@ Usuário adiciona itens via TextField, marca itens comprados com checkbox e pode
 
 Usuário cria notas com título e conteúdo multilinha, exibe os títulos em uma lista e pode ver o conteúdo completo ao selecionar.
 
+### Formulário de Feedback
+
+Tela simulando o envio de um formulário de feedback com avaliação e comentário.
+
 
 ---
 
