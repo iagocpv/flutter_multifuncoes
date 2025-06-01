@@ -46,6 +46,13 @@ class HomeScreen extends StatelessWidget {
               child: const Text('Calcular Área do Retângulo'),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, AppRoutes.listaCompras),
+              child: const Text('Lista de compras'),
+            ),
+          ),
         ],
       ),
     );
