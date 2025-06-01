@@ -53,6 +53,27 @@ class HomeScreen extends StatelessWidget {
               child: const Text('Lista de compras'),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, AppRoutes.tarefas),
+              child: const Text('Lista de tarefas'),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, AppRoutes.notas),
+              child: const Text('Notas rápidas'),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, AppRoutes.feedback),
+              child: const Text('Feedbacks'),
+            ),
+          ),
         ],
       ),
     );
